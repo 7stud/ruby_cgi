@@ -54,7 +54,7 @@ Make the cgi program executable:
 
     $ chmod a+x my_prog2.cgi
     
-1) Start the server:  
+1) Change directories to the directory containing `webrick_server.rb`, and start the server:  
 ```
 $ r webrick_server.rb 
 [2017-05-31 12:37:48] INFO  WEBrick 1.3.1
