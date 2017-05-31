@@ -43,7 +43,6 @@ Note that the path used for the action attribute does not specify `public_html`.
 my_prog2.cgi:
 ```ruby
 #!/usr/bin/env ruby
-#By default, this script won't execute in this directory 
 
 require 'cgi'
 cgi = CGI.new
@@ -68,4 +67,4 @@ Listening on port: 12500
 
 3) Enter something in the input field, then click submit, and you should see something like:
     
-    You submited: 456-7890
+    `You submited: 456-7890`
